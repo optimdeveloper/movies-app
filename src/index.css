@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: auto !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+body , html {
+  font-family: 'Gotham-Black';
+  height: 100vh;
+}
+
+@font-face {
+  font-family: 'Gotham-Black';
+  font-weight: 100;
+  src: local('Gotham-Black'), url(./fonts/Gotham-Book.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: local('Gotham-Bold'), url(./fonts/Gotham-Black.otf) format('truetype');
+}
+
+
+
